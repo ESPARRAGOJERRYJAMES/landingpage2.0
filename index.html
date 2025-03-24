@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Add this CSS to your existing style.css or within a <style> tag */
+        .hero-video {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000; /* Fallback background color */
+        }
+
+        .hero-video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Optional: Add some padding to the hero section */
+        #hero {
+            padding: 20px;
+            text-align: center; /* Center align content */
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .hero-content {
+                padding: 10px; /* Adjust padding for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about-benefits">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#trust-signals">Trust Signals</a></li>
+                    <li><a href="#call-to-action">Get Started</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Unlock the Power of Information with Info Seeker</h2>
+                <p>At Info Seeker, we provide you with the tools and insights you need to make informed decisions. Whether you're looking for data analysis, market research, or expert advice, we've got you covered.</p>
+                <a href="#call-to-action" class="btn">Get Started</a>
+            </div>
+            <div class="hero-video">
+                <!-- Embed Video -->
+                <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                    <iframe id="js_video_iframe" src="https://jumpshare.com/embed/XtWZhOQVrtxdn2xYelv9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-benefits" class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Info Seeker is dedicated to empowering individuals and businesses with the information they need to thrive in today's fast-paced world. Our team of experts leverages cutting-edge technology and extensive research to deliver actionable insights tailored to your specific needs.</p>
+            </div>
+            <div class="benefits-content">
+                <h2>Benefits</h2>
+                <p>By choosing Info Seeker, you gain access to:</p>
+                <ul>
+                    <li>Comprehensive data analysis that drives results.</li>
+                    <li>Expert insights that help you stay ahead of the competition.</li>
+                    <li>Customized solutions designed to meet your unique challenges.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="testimonials" class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Info Seeker has completely changed the way we approach our data. Their insights have been invaluable in helping us make strategic decisions that have significantly improved our performance." - Alex Thompson, Business Analyst at Future Tech</p>
+            </div>
+            <div class="testimonial">
+                <p>"The team at Info Seeker is incredibly professional and knowledgeable. Their market research helped us identify new opportunities that we hadn't considered before." - Lisa Carter, Marketing Manager at Innovate Corp</p>
+            </div>
+        </section>
+
+        <section id="trust-signals" class="container">
+            <h2>Trust Signals</h2>
+            <p>Your data is safe with us. We prioritize your privacy and security. Our platform is built with the latest encryption technologies to ensure that your data is always protected.</p>
+            
+            <div class="customer-reviews">
+                <h3>What Our Clients Say</h3>
+                <blockquote>
+                    <p>"Info Seeker has completely changed the way we approach our data. Their insights have been invaluable in helping us make strategic decisions that have significantly improved our performance." - Alex Thompson, Business Analyst at Future Tech</p>
+                </blockquote>
+                <blockquote>
+                    <p>"The team at Info Seeker is incredibly professional and knowledgeable. Their market research helped us identify new opportunities that we hadn't considered before." - Lisa Carter, Marketing Manager at Innovate Corp</p>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="call-to-action" class="container">
+            <h2>Call to Action</h2>
+            <p>Ready to take the next step? Join us at Info Seeker and unlock the potential of your data today!</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Info Seeker. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
